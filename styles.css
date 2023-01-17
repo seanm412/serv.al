@@ -5,3 +5,16 @@ body {
   text-align: center;
   padding: 20px 70px 70px 70px;
 }
+
+img {
+  border-radius: 50%;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
