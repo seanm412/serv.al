@@ -8,12 +8,25 @@
     </head>
 
     <body>
-        <h1 id="the-serval-site">The Serval Site</h1>
-        <img src="serval.jpg" alt="A serval.">
+        <div>
+            <h1 class="unselectable" ondblclick="Meow()" id="title">The Serval Site</h1>
+        </div>
+        <img src="serval.jpg" alt="A serval." width="256" height="256" >
         <p>
         <p>Hi, I&#39;m <strong>Ollie!</strong> I&#39;m a sophomore information science student at <a href="https://pitt.edu">Pitt</a>.</p>
         <p>I am interested in cybersecurity, networking, and  social engineering.</p>
         <p>In my free time, I like to drink coffee and read.</p>
+    
+        <script>
+            function Meow() {
+                if(document.getElementById("title").innerText == "The Serval Site") {
+                    document.getElementById("title").innerText = "Meow";
+                } else {
+                    document.getElementById("title").innerText = "The Serval Site";
+                }
+            }
+        </script>
+        
     </body>
 
 </html>
