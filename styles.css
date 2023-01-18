@@ -3,10 +3,9 @@ body {
   color: white;
   background-color: #202020;
   text-align: center;
-  padding: 20px 70px 70px 70px;
 }
 
-img {
+.circle {
   border-radius: 50%;
 }
 
@@ -17,4 +16,47 @@ img {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.mainContainer {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.top{
+  display: table-row;
+}
+
+.topContainer {
+  text-decoration: none;
+}
+
+.homeButton {
+  display: table-cell;
+  color: white;
+  text-decoration: none;
+  top: 0;
+  left: 0;
+}
+
+.navigation {
+  display: table-cell;
+  color: white;
+  text-decoration: none;
+  top: 0;
+  left: 50%;
+}
+
+div#bottom{
+  display: table-row;
+}
+
+div#bottomContainer {
+  display: table-cell;
+  border: 0px;
+  bottom: 100px;
+  left: 0px;
+  height: 100px;
+  width: 100%;
 }
