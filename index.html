@@ -1,32 +1,49 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <title>The Serval Site</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="styles.css">
-    </head>
 
-    <body>
-        <div>
-            <h1 class="unselectable" ondblclick="Meow()" id="title">The Serval Site</h1>
+<head>
+    <title>The Serval Site</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="top">
+            <div class="topContainer">
+                <div class="homeButton">
+                    <a class="homeButton" href="index.html">Home</a>
+                </div>
+                <div id="navigation">
+                    <a class="navigation" href="serval.jpg">Serval</a>
+                </div>
+            </div>
         </div>
-        <img src="serval.jpg" alt="A serval." width="256" height="256" >
-        <p>
-        <p>Hi, I&#39;m <strong>Ollie!</strong> I&#39;m a sophomore information science student at <a href="https://pitt.edu">Pitt</a>.</p>
-        <p>I am interested in cybersecurity, networking, and  social engineering.</p>
-        <p>In my free time, I like to drink coffee and read.</p>
-    
-        <script>
-            function Meow() {
-                if(document.getElementById("title").innerText == "The Serval Site") {
-                    document.getElementById("title").innerText = "Meow";
-                } else {
-                    document.getElementById("title").innerText = "The Serval Site";
-                }
+
+        <div id="bottom">
+            <div id="bottomContainer">
+                <h1 id="title">The Serval Site</h1>
+                <img src="serval.jpg" class="circle" onclick="Meow()" alt="A serval." width="256" height="256">
+                <p>
+                <p>Hi, I&#39;m <strong>Ollie!</strong> I&#39;m a sophomore information science student at <a
+                        style="color: white" href="https://pitt.edu">Pitt</a>.</p>
+                <p>I am interested in cybersecurity, networking, and social engineering.</p>
+                <p>In my free time, I like to drink coffee and read.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function Meow() {
+            if (document.getElementById("title").innerText == "The Serval Site") {
+                document.getElementById("title").innerText = "Meow!";
+            } else {
+                document.getElementById("title").innerText = "The Serval Site";
             }
-        </script>
-        
-    </body>
+        }
+    </script>
+
+</body>
 
 </html>
