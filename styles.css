@@ -3,6 +3,7 @@ body {
   color: white;
   background-color: #202020;
   text-align: center;
+  padding: 0px;
 }
 
 .circle {
@@ -18,45 +19,32 @@ body {
   user-select: none;
 }
 
-.mainContainer {
-  display: table;
-  height: 100%;
-  width: 100%;
+.header {
+  text-align: center;
+  padding: 0px;
+  font-size: 30px;
 }
 
-.top{
-  display: table-row;
+.topnav {
+  overflow: hidden;
+  background-color: #303030;
 }
 
-.topContainer {
+.topnav a:hover {
+  background-color: #505050;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
-.homeButton {
-  display: table-cell;
-  color: white;
-  text-decoration: none;
-  top: 0;
-  left: 0;
-}
-
-.navigation {
-  display: table-cell;
-  color: white;
-  text-decoration: none;
-  top: 0;
-  left: 50%;
-}
-
-div#bottom{
-  display: table-row;
-}
-
-div#bottomContainer {
-  display: table-cell;
-  border: 0px;
-  bottom: 100px;
-  left: 0px;
-  height: 100px;
-  width: 100%;
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #303030;
 }
