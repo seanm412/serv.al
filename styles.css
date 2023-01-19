@@ -28,8 +28,6 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #303030;
-  padding-top: 10px;
-  padding-bottom: 10px;
   font-size: auto;
 }
 
@@ -49,6 +47,10 @@ body {
 .footer {
   text-align: center;
   background-color: #303030;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  position: absolute;
 }
