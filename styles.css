@@ -22,12 +22,13 @@ body {
 .header {
   text-align: center;
   padding: 0px;
-  font-size: 30px;
 }
 
 .topnav {
   overflow: hidden;
   background-color: #303030;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .topnav a:hover {
@@ -41,10 +42,12 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 16px;
 }
 
 .footer {
   text-align: center;
-  padding: 10px;
   background-color: #303030;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
