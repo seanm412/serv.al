@@ -16,6 +16,10 @@ body {
     overflow: hidden;
     background-color: #303030;
     font-size: auto;
+    position: absolute;
+    top: 105px;
+    left: 0px;
+    right: 0px;
   }
   
   .topnav a:hover {
